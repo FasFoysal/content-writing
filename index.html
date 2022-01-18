@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fas&Contt</title>
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+<!-- start form hare.... -->
+<section class="a_1_1">
+  <div class="a_2_1">
+    <div class="a_2_2">
+      <ul>
+        <li><a href="index.html"><img src="img/logo.jpg" alt=""></a></li>
+        <li><h1><a href="index.html">Fas&Contt</a></h1></li>
+      </ul>
+
+    </div>
+    <div class="a_2_3">
+      <ul>
+        
+        <li><a href=""></a>HOME</li>
+        <li><a href=""></a>ALL CONTENR'S</li>
+        <li><a href=""></a>CONTENT</li>
+        <li><a href=""></a>ABOUT US</li>
+        <li><a href=""></a>CONTRACT</li>
+      </ul>
+    </div>  
+  </div>
+</section>
+<!-- next..... -->
+<section id="home" >
+  <div class="container">
+        
+    <video  autoplay muted loop>
+      <source class="video1" src="video/video1.mp4" type="video/mp4">
+      <source class="video2" src="pic/mobile-phone-1080.jpg" type="image/jpg">
+     
+      <script>
+          window.onload = function(){ 
+          //now that the window has loaded we add our event listeners to the videos.
+          //When video1 has ended, play video2 etc
+          document.getElementById("video1").addEventListener("ended", function(){ playVideo("video2"); });
+          document.getElementById("video2").addEventListener("ended", function(){ playVideo("video3"); });
+          document.getElementById("video3").addEventListener("ended", function(){ playVideo("video1"); });
+      }  
+      function playVideo(videoID){
+          //This playVideo function takes in the ID of a video element and plays that video.
+          var videoElement = document.getElementById(videoID);
+          videoElement.play();
+      }
+      </script>
+    </video>
+<div class="overlay">
+  <div class="home_b">
+  <h2>SOME SAY</h2>
+  <h1>I MAKE MAGIC</h1>
+  <p>
+    Hello there, my name is Fas Foysal Ahmed shoun. I am a web designer. Fell free to look around, but be careful, the hypnotic effect of my designs may leave you cracing for more....
+  </p>
+  <a href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r"><img src="img/tour.png" alt=""></a>
+  </div>
+   
+  
+</div>
+</div>
+</section>
+
+</body>
+</html>
