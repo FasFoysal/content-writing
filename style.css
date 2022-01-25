@@ -16,6 +16,8 @@
     height: 125px;
     border: 1px solid #55efc4;
     border-radius: 5px;   
+    position: fixed;
+    top: 0;
 }
 .a_1_1:hover{
     box-shadow: 8px 8px 8px #00b894;
@@ -71,6 +73,7 @@
 #home{
     position: relative;
     z-index: -1;
+    padding: 150px 0 0 0;
 }
 .container{
     width: 100%;
